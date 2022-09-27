@@ -1,6 +1,6 @@
 let fs = require('fs')
 global.data = JSON.parse(fs.readFileSync('./data.json'))
-global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your number to /src/owner.json
+global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) [6281241956878] // Put your number to /src/owner.json
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -28,8 +28,8 @@ global.APIKeys = { // APIKey Here
   'https://hardianto.xyz': 'hardianto',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
-global.packname = data.namabot
-global.author = data.owner
+global.packname = data.wangsaff-md
+global.author = data.azmy
 global.wm = data.namabot + ' ' + data.owner
 
 global.multiplier = 100 // The higher, The harder levelup
